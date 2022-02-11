@@ -1,0 +1,78 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+  align-items: center;
+  background-color: #131921;
+  position: fixed;
+  padding: 10px 20px;
+  z-index: 100;
+}
+.header__brandlogo img {
+  height: 30px;
+  width: auto;
+}
+.header__search {
+  flex: 1;
+  margin-left: 20px;
+}
+.header__search .allSearchBtn {
+  background-color: #f3f3f3;
+  padding-left: 10px;
+  padding-right: 0;
+  font-size: 12px;
+  width: 60px;
+}
+.header__search .searchIcon {
+  background-color: #febd69;
+  color: #333;
+  border: 1px solid #febd69;
+}
+.headerLink {
+  color: #fff;
+  border: 1px solid transparent;
+}
+.headerLink:hover .header__userNav__subSec {
+  border: 1px solid #fff;
+  padding: 2px 8px;
+}
+.headerLink:hover .header__userNav .spanTxt1,
+.headerLink:hover .header__userNav .spanTxt2 {
+  text-decoration: none;
+}
+.header__userNav {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.header__userNav .spanTxt1 {
+  font-size: 13px;
+  display: block;
+}
+.header__userNav .spanTxt2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.header__userNav__subSec {
+  margin-left: 20px;
+  padding: 2px 8px;
+  color: #fff;
+  border: 1px solid transparent;
+}
+.header__userNav__cartCount .productadd-count-sec {
+  font-size: 10px;
+  position: absolute;
+  font-weight: bold;
+}
+.header__userNav__cartCount .productadd-count-value {
+  position: absolute;
+  left: 5px;
+  top: 1px;
+  background-color: #f22f22;
+  min-width: 16px;
+  border-radius: 50px;
+  max-width: 20px;
+  height: 17px;
+  text-align: center;
+}

@@ -1,0 +1,13 @@
+.home__bannerContainer {
+  margin-bottom: -150px;
+}
+.home__bannerContainer img {
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -150px;
+  -webkit-mask-image: linear-gradient(to top, transparent 25%, black 75%);
+  mask-image: linear-gradient(to top, transparent 25%, black 75%);
+}
+.home__bannerContainer .carousel-indicators {
+  display: none;
+}
